@@ -3,9 +3,9 @@ import json
 from pathlib import Path
 
 # --- Paths ---
-RAW_DIR = Path("opendotaraw")
-DICT_DIR = Path("dictionaries/data")
-IMAGE_DIR = Path("dictionaries/image")
+RAW_DIR = Path("docs/opendotaraw")
+DICT_DIR = Path("docs/dictionaries/data")
+IMAGE_DIR = Path("docs/dictionaries/image")
 OUTPUT_ROOT = Path("docs/matches")     # ✅ GitHub Pages-compatible output
 INDEX_PATH = Path("docs/index.html")   # ✅ index inside /docs
 
