@@ -1,0 +1,243 @@
+
+    <html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+    text-align: center;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.team {
+    width: 45%;
+    background: #1b1b1b;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 10px #222;
+}
+.hero-card {
+    background: #222;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+    text-align: left;
+}
+.hero-top {
+    display: flex;
+    align-items: flex-start;
+}
+.hero-img {
+    width: 90px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.stats {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+.stats .label {
+    display: inline-block;
+    width: 110px;
+    color: #ccc;
+}
+.stats .value {
+    display: inline-block;
+}
+.stats .green {
+    color: #00ff88;
+    font-weight: bold;
+    text-shadow: 0 0 6px #00ff88, 0 0 10px #00cc66;
+}
+.bans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.ban-img {
+    width: 50px;
+    height: 28px;
+    border-radius: 6px;
+    margin: 4px;
+    opacity: 0.7;
+    position: relative;
+}
+.ban-img span {
+    position: absolute;
+    font-size: 10px;
+    color: #fff;
+    top: 2px;
+    left: 4px;
+    text-shadow: 1px 1px 2px black;
+}
+h2 {
+    color: #00ff88;
+}
+.match-info {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+@media(max-width: 768px) {
+    .team { width: 90%; margin-bottom: 20px; }
+}
+</style>
+</head>
+    <body>
+    <h2>PVISION vs Team Falcons - Winner: Team Falcons</h2>
+    <div class='match-info'>Duration: 65:39</div>
+    <div class='container'>
+        <div class='team'>
+            <h3>PVISION</h3>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/oracle.png' alt='Oracle' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>9. Dukalis</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>1/8/13</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>279/367</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>32%</span></div>
+                        <div>LH: 8%, HDM: 1%, TDM: 26%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/rattletrap.png' alt='Clockwerk' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>13. 9Class</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>2/14/12</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>285/408</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>38%</span></div>
+                        <div>LH: 44%, HDM: 2%, TDM: 48%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/phoenix.png' alt='Phoenix' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>16. DM</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>0/5/12</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>555/701</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>54%</span></div>
+                        <div>LH: 99%, HDM: 21%, TDM: 52%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/storm_spirit.png' alt='Storm Spirit' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>17. No[o]ne-</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>4/5/11</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>651/963</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>77%</span></div>
+                        <div>LH: 99%, HDM: 38%, TDM: 62%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/juggernaut.png' alt='Juggernaut' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>24. Satanic</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>10/4/3</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>856/972</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>72%</span></div>
+                        <div>LH: 100%, HDM: 85%, TDM: 45%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4>Bans</h4>
+            <div class='bans'><div class='ban-img'><span>2</span><img src='../image/mars.png' alt='Mars' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>3</span><img src='../image/chen.png' alt='Chen' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>5</span><img src='../image/naga_siren.png' alt='Naga Siren' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>6</span><img src='../image/hoodwink.png' alt='Hoodwink' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>12</span><img src='../image/life_stealer.png' alt='Lifestealer' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>20</span><img src='../image/weaver.png' alt='Weaver' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>21</span><img src='../image/abaddon.png' alt='Abaddon' style='width:100%;border-radius:6px;'></div></div>
+        </div>
+        <div class='team'>
+            <h3>Team Falcons</h3>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/sand_king.png' alt='Sand King' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>8. Malr1ne</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>10/2/19</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>615/834</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>89%</span></div>
+                        <div>LH: 88%, HDM: 73%, TDM: 92%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/snapfire.png' alt='Snapfire' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>14. Cr1t-</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>10/3/21</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>400/720</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>43%</span></div>
+                        <div>LH: 44%, HDM: 17%, TDM: 94%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/enchantress.png' alt='Enchantress' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>15. Sneyking</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>1/5/24</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>475/692</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>41%</span></div>
+                        <div>LH: 98%, HDM: 6%, TDM: 84%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/pangolier.png' alt='Pangolier' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>18. AMMAR_THE_F</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>5/2/20</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>746/1020</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>77%</span></div>
+                        <div>LH: 100%, HDM: 67%, TDM: 72%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/gyrocopter.png' alt='Gyrocopter' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>23. skiter</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>10/5/12</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>775/911</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>81%</span></div>
+                        <div>LH: 93%, HDM: 65%, TDM: 94%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4>Bans</h4>
+            <div class='bans'><div class='ban-img'><span>1</span><img src='../image/lycan.png' alt='Lycan' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>4</span><img src='../image/slark.png' alt='Slark' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>7</span><img src='../image/monkey_king.png' alt='Monkey King' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>10</span><img src='../image/pudge.png' alt='Pudge' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>11</span><img src='../image/queenofpain.png' alt='Queen of Pain' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>19</span><img src='../image/faceless_void.png' alt='Faceless Void' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>22</span><img src='../image/antimage.png' alt='Anti-Mage' style='width:100%;border-radius:6px;'></div></div>
+        </div>
+    </div>
+    <p><a href='../index.html' style='color:#00ff88;'>Back to Match List</a></p>
+    </body></html>
+    

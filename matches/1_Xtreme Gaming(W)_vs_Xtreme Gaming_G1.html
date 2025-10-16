@@ -1,0 +1,243 @@
+
+    <html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+    text-align: center;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.team {
+    width: 45%;
+    background: #1b1b1b;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 10px #222;
+}
+.hero-card {
+    background: #222;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+    text-align: left;
+}
+.hero-top {
+    display: flex;
+    align-items: flex-start;
+}
+.hero-img {
+    width: 90px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.stats {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+.stats .label {
+    display: inline-block;
+    width: 110px;
+    color: #ccc;
+}
+.stats .value {
+    display: inline-block;
+}
+.stats .green {
+    color: #00ff88;
+    font-weight: bold;
+    text-shadow: 0 0 6px #00ff88, 0 0 10px #00cc66;
+}
+.bans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.ban-img {
+    width: 50px;
+    height: 28px;
+    border-radius: 6px;
+    margin: 4px;
+    opacity: 0.7;
+    position: relative;
+}
+.ban-img span {
+    position: absolute;
+    font-size: 10px;
+    color: #fff;
+    top: 2px;
+    left: 4px;
+    text-shadow: 1px 1px 2px black;
+}
+h2 {
+    color: #00ff88;
+}
+.match-info {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+@media(max-width: 768px) {
+    .team { width: 90%; margin-bottom: 20px; }
+}
+</style>
+</head>
+    <body>
+    <h2>Xtreme Gaming vs Tundra Esports - Winner: Xtreme Gaming</h2>
+    <div class='match-info'>Duration: 55:50</div>
+    <div class='container'>
+        <div class='team'>
+            <h3>Xtreme Gaming</h3>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/beastmaster.png' alt='Beastmaster' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>8. Xxs</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>4/1/16</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>795/1121</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>62%</span></div>
+                        <div>LH: 100%, HDM: 45%, TDM: 72%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/winter_wyvern.png' alt='Winter Wyvern' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>14. xNova</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>0/7/14</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>290/448</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>27%</span></div>
+                        <div>LH: 18%, HDM: 3%, TDM: 30%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/tiny.png' alt='Tiny' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>15. XinQ</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>2/4/16</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>383/613</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>35%</span></div>
+                        <div>LH: 18%, HDM: 10%, TDM: 39%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/troll_warlord.png' alt='Troll Warlord' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>18. Ame</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>8/3/6</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>980/1174</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>72%</span></div>
+                        <div>LH: 100%, HDM: 64%, TDM: 100%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/pangolier.png' alt='Pangolier' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>23. Xm</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>9/3/10</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>620/963</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>73%</span></div>
+                        <div>LH: 92%, HDM: 39%, TDM: 47%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4>Bans</h4>
+            <div class='bans'><div class='ban-img'><span>1</span><img src='../image/marci.png' alt='Marci' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>4</span><img src='../image/invoker.png' alt='Invoker' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>7</span><img src='../image/naga_siren.png' alt='Naga Siren' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>10</span><img src='../image/sand_king.png' alt='Sand King' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>11</span><img src='../image/puck.png' alt='Puck' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>19</span><img src='../image/abaddon.png' alt='Abaddon' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>22</span><img src='../image/bloodseeker.png' alt='Bloodseeker' style='width:100%;border-radius:6px;'></div></div>
+        </div>
+        <div class='team'>
+            <h3>Tundra Esports</h3>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/lycan.png' alt='Lycan' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>9. 33</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>3/4/12</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>640/717</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>85%</span></div>
+                        <div>LH: 98%, HDM: 19%, TDM: 62%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/shadow_demon.png' alt='Shadow Demon' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>13. Saksa</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>5/6/6</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>336/479</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>39%</span></div>
+                        <div>LH: 90%, HDM: 45%, TDM: 31%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/storm_spirit.png' alt='Storm Spirit' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>16. bzm</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>5/2/8</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>593/824</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>77%</span></div>
+                        <div>LH: 98%, HDM: 77%, TDM: 20%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/warlock.png' alt='Warlock' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>17. Tobi</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>0/6/11</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>252/435</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>36%</span></div>
+                        <div>LH: 13%, HDM: 11%, TDM: 37%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='hero-card'>
+                <div class='hero-top'>
+                    <img src='../image/juggernaut.png' alt='Juggernaut' class='hero-img'>
+                    <div class='stats'>
+                        <div><b>24. Crystallis</b></div>
+                        <div><span class='label'>K/D/A:</span> <span class='value green'>5/5/4</span></div>
+                        <div><span class='label'>GPM/XPM:</span> <span class='value'>691/824</span></div>
+                        <div><span class='label'>Lane:</span> <span class='value'>87%</span></div>
+                        <div>LH: 99%, HDM: 32%, TDM: 43%</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h4>Bans</h4>
+            <div class='bans'><div class='ban-img'><span>2</span><img src='../image/undying.png' alt='Undying' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>3</span><img src='../image/nevermore.png' alt='Shadow Fiend' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>5</span><img src='../image/earthshaker.png' alt='Earthshaker' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>6</span><img src='../image/antimage.png' alt='Anti-Mage' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>12</span><img src='../image/snapfire.png' alt='Snapfire' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>20</span><img src='../image/leshrac.png' alt='Leshrac' style='width:100%;border-radius:6px;'></div><div class='ban-img'><span>21</span><img src='../image/mars.png' alt='Mars' style='width:100%;border-radius:6px;'></div></div>
+        </div>
+    </div>
+    <p><a href='../index.html' style='color:#00ff88;'>Back to Match List</a></p>
+    </body></html>
+    
